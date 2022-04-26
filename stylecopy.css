@@ -1,0 +1,84 @@
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+.clear {
+    clear: both;
+}
+header {
+    width: 100%;
+    height: 15%;
+    background-color: rgba(200,200,200, 0.5);
+    padding: 8px;
+}
+.logos {
+    width: 100%;
+    max-width: 1000px;
+    margin:5px auto;
+}
+.logo1 {
+    width: 170px;
+    margin: left;
+    margin-top: 10px;
+
+}
+.logo2 {
+    width: 150px;
+    margin: 15px auto;
+    float: right;
+}
+section{
+    background-color: gray;
+    width: 80%;
+    height: 80%;
+    margin:0 auto;
+}
+form {
+    background-color: rgba(200,200,200, 0.2);
+    width: 30%;
+    height: 97%;
+    float: right;
+    margin-top: 7px;
+    margin-right: 7px;
+    padding: 15px 20px;
+}
+form p {
+    text-align: left;
+    font-size: 18px;
+    margin: 10px 0;
+}
+.input-container{
+    margin-top:40px;
+}
+.input-container input[type=text] {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    margin-top: 
+}
+.input-container input[type=button] {
+    width: 100%;
+    height: 45px;
+    background-color: rgba(47, 77, 168, 0.9);
+    border: none;
+}
+.input-container input[value=Enviar] {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.input-container input[value=Enviar]:hover{
+    background-color:rgba(0,0,0,0.5);
+}
+.input-container span {
+    font-size: 14px;
+    color: rgba(0,0,0,0.9);
+}
+form > span {
+    float: left;
+    margin-top: 20px;
+    font-size: 14px;
+    color: rgba(0,0,0,0.9);
+}
